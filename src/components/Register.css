@@ -1,0 +1,89 @@
+.Register-div{
+    width: 40%;
+    border: 1px solid #c5bdbd;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-left: 73px;
+    position: absolute;
+    margin-top: -281px;
+}
+.Register-data{
+    width: 40%;
+    display: inline-block;
+    border: 1px solid #c5bdbd;
+    padding: 15px;
+    background-color: #ff7777;
+}
+.Register-input{
+    float: right;
+    width: 53%;
+    margin: 26px 21px;
+}
+.from-group{
+    display: grid;
+}
+.add_logo{
+    font-size: 143px;
+    color: #ffffff;
+    margin-left: 33px;
+}
+.Register-data-p{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+}
+.p-user{
+    font-weight: 800;
+    color: #525050;
+}
+.Email-id{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+.input-text{
+    width: 92%;
+    height: 30px;
+    border: 1px solid #e2dede;
+    border-radius: 9px;
+    padding-left: 15px;
+    font-size: 13px;
+}
+.input-text:focus{
+    border: none;
+}
+.btn:hover{
+    border: none;
+}
+.select{
+    border: 1px solid #e2dede;
+    width: 38%;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 4px 7px;
+}
+.select:focus{
+    border: none;
+}
+.btn{
+    margin-left: 56px;
+}
+.table-button{
+    margin-right: 12px;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: #dbc91a;
+    color: #ffffff;
+}
+.table-add_logo{
+    padding: 3px 32px;
+    background-color: #3bd76f;
+    border: none;
+    margin-left: 8px;
+    border-radius: 3px;
+    color: #ffffff;
+}

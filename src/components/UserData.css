@@ -1,0 +1,113 @@
+.Userdata-h1{
+    margin-top: 46px;
+    margin-left: 65px;
+}
+.adduserbtn{
+    padding: 6px 47px;
+    border-radius: 20px;
+    background-color: #3bd76f;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.table{
+    width: 50vw;
+    margin-top: 20px;
+}
+.table-TbCaretUp{
+    float: right;
+    color: #afacac;
+}
+.table-TbCaretDown{
+    float: right;
+    margin-top: 7px;
+    margin-right: -16px;
+    color: #afacac;
+}
+.table>:not(caption)>*>* {
+    padding: 0.8rem 1.5rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+.table-tr{
+    background-color: #ebe9e9;
+}
+.table-th{
+    border-right-width: 1px; 
+}
+.table-td{
+    border-right-width: 1px;
+    text-transform: capitalize;
+}
+.table-delete{
+    color: #fff;
+    font-size: 18px!important;
+       
+}
+.delete{
+    background-color: #3bd76f;
+    text-align: center;
+    width: 28px;
+    justify-content: center;
+    margin: 0!important;
+    height: 30px;
+    border-radius: 50%;   
+}
+.Go-back{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 9px 35px;
+    background-color: #3bd76f;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;   
+}
+.Go-back:hover{
+    border: none;
+    color: #fff;
+}
+.React-router{
+    margin: 34px;
+}
+.react_dom{
+    margin-top: 17px;
+    font-weight: 800;
+    color: #373636;
+}
+.Link-li{
+    text-decoration: none;
+    color: #3e3b3b;
+    font-weight: 400;
+    margin-left: 12px;
+}
+.Link-li:hover{
+    color: #fff;
+}
+.privese{
+    float: right;
+    display: inline-flex;
+}
+.close{
+    text-decoration: none;
+    color: #403f3f;
+    font-weight: 800;
+    margin-right: 11px;
+}
+.close:hover{
+    color: #403f3f;
+}
+.close:checked{
+    color: #3bd76f;
+}
+.Close-number{
+    margin-right: 13px;
+    padding: 0px 8px;
+}
+.green-close{
+    background-color: #3bd76f;
+}
+.Close-number:hover{
+    color: #403f3f;
+}

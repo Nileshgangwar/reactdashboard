@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Coustomers from './components/Coustomers.js';
+import Demos from './components/Demos.js';
+import DemoScript from './components/DemoScript.js';
+import Product from './components/Products.js';
+import SalceTeam from './components/SalceTeam.js';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import Userdata from './components/Userdata';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <div className="home">
+      <Sidebar/>
+           <Routes>
+             <Route path="/" element={<Userdata />}></Route>
+             <Route path="Products" element={<Product/>} />
+             <Route path="Coustomers" element={<Coustomers/>} />
+             <Route path="DemoScript" element={<DemoScript/>} />
+             <Route path="Demo" element={<Demos/>} />
+             <Route path="SalceTeams" element={<SalceTeam/>} />
+           </Routes>
+      </div>
     </div>
   );
 }
